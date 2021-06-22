@@ -7,7 +7,7 @@
 .container {
     height: 100vh;
     display: flex;
-    /* position: relative; */
+    overflow: hidden;
 }
 
 .left, .right {
@@ -30,6 +30,4 @@
     height: 100vh;
     background: black;
     cursor: col-resize;
-    /* position: absolute;
-    left: 50%; */
 }
