@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    /* position: relative; */
+}
+
+.left, .right {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    background: crimson;
+}
+
+.right {
+    background: violet;
+}
+
+.divider {
+    width: 0.5%;
+    height: 100vh;
+    background: black;
+    cursor: col-resize;
+    /* position: absolute;
+    left: 50%; */
+}
